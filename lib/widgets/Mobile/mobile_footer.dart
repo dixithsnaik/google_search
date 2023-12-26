@@ -6,6 +6,7 @@ class MobileFooter extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // ignore: prefer_const_constructors
     return Wrap(
       children: const [
         FooterText(

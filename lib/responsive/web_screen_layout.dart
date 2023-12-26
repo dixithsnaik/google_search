@@ -46,7 +46,7 @@ class WebScreenLayout extends StatelessWidget {
           IconButton(
             onPressed: () {},
             icon: SvgPicture.asset('assets/images/more-apps.svg',
-                colorFilter: ColorFilter.mode(primaryColor, BlendMode.srcIn),),
+                colorFilter: const ColorFilter.mode(primaryColor, BlendMode.srcIn),),
           ),
           const SizedBox(
             width: 10,
@@ -72,7 +72,7 @@ class WebScreenLayout extends StatelessWidget {
             SizedBox(
               height: size.height * 0.25,
             ),
-             Expanded(
+             const Expanded(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -89,7 +89,7 @@ class WebScreenLayout extends StatelessWidget {
                       TranslationButtons(),
                     ],
                   ),
-                  const WebFooter(),
+                  WebFooter(),
                 ],
               ),
             ),

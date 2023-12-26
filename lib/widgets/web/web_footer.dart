@@ -9,14 +9,14 @@ class WebFooter extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color: footerColor,
-      child: Padding(
-        padding: const EdgeInsets.all(5),
+      child: const Padding(
+        padding: EdgeInsets.all(5),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: const [
+              children: [
                 FooterText(
                   title: 'About',
                 ),
@@ -45,7 +45,7 @@ class WebFooter extends StatelessWidget {
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: const [
+              children: [
                 FooterText(
                   title: 'Privacy',
                 ),

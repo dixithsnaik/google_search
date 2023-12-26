@@ -57,7 +57,7 @@ class SearchHeader extends StatelessWidget {
                           height: 20,
                           width: 20,
                         ),
-                        SizedBox(
+                        const SizedBox(
                           width: 20,
                         ),
                         const Icon(Icons.search, color: blueColor)

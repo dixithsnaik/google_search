@@ -15,7 +15,7 @@ class ApiService {
             : queryTerm;
         final response = await http.get(
           Uri.parse(
-              'https://www.googleapis.com/customsearch/v1?key=${apiKey}&cx=$contextKey&q=$q&strat=$strat'),
+              'https://www.googleapis.com/customsearch/v1?key=$apiKey&cx=$contextKey&q=$q&strat=$strat'),
         );
         if (response.statusCode == 200) {
           final jsonData = response.body;

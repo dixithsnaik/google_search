@@ -29,7 +29,7 @@ class _SearchResultComponentState extends State<SearchResultComponent> {
       children: [
         Text(widget.link),
         Padding(
-          padding: EdgeInsets.only(bottom: 8),
+          padding: const EdgeInsets.only(bottom: 8),
           child: InkWell(
             splashColor: Colors.transparent,
             highlightColor: Colors.transparent,
